@@ -1,0 +1,291 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container10 {
+  display: contents;
+}
+ 
+.navigation-container11 {
+  display: none;
+}
+ 
+.navigation-container12 {
+  display: contents;
+}
+ 
+.navigation-container13 {
+  display: none;
+}
+ 
+.navigation-container14 {
+  display: contents;
+}
+ 
+.navigation-container15 {
+  display: none;
+}
+ 
+.navigation-container16 {
+  display: contents;
+}
+ 
+.navigation-container17 {
+  display: none;
+}
+ 
+.navigation-container18 {
+  display: contents;
+}
+ 
+.navigation-container21 {
+  text-decoration: none;
+}
+ 
+.navigation-container24 {
+  text-decoration: none;
+}
+ 
+.navigation-container25 {
+  text-decoration: none;
+}
+ 
+.navigation-container26 {
+  text-decoration: none;
+}
+ 
+.navigation-container27 {
+  display: none;
+  text-decoration: none;
+}
+ 
+.navigation-container28 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-nav-korpusmenu-item-elm6 {
+  display: none;
+}
+ 
+.navigation-container29 {
+  text-decoration: none;
+}
+ 
+.navigation-container30 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-nav-korpustheme-icon1-elm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 1;
+  position: absolute;
+  transform: translateY(0) rotate(0deg);
+  transition: transform 0.4s var(--animation-curve-primary),
+      opacity 0.4s var(--animation-curve-primary);
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navigation-thq-nav-korpustheme-icon2-elm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  position: absolute;
+  transform: translateY(100%) rotate(180deg);
+  transition: transform 0.4s var(--animation-curve-primary),
+      opacity 0.4s var(--animation-curve-primary);
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navigation-container31 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-nav-korpusmobile-icon1-elm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 1;
+  position: absolute;
+  transform: rotate(0deg);
+  transition: transform 0.3s var(--animation-curve-primary),
+      opacity 0.3s var(--animation-curve-primary);
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navigation-thq-nav-korpusmobile-icon2-elm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  position: absolute;
+  transform: rotate(90deg);
+  transition: transform 0.3s var(--animation-curve-primary),
+      opacity 0.3s var(--animation-curve-primary);
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container10 {
+  display: contents;
+}
+ 
+.footer-container11 {
+  display: none;
+}
+ 
+.footer-container12 {
+  display: contents;
+}
+ 
+.footer-container13 {
+  display: none;
+}
+ 
+.footer-container14 {
+  display: contents;
+}
+ 
+.footer-image {
+  width: 200px;
+  object-fit: cover;
+}
+ 
+.footer-thq-footer-column-elm3 {
+  display: none;
+}
+ 
+.footer-thq-footer-link-elm19 {
+  display: none;
+}
+ 
+.footer-thq-footer-link-elm24 {
+  text-decoration: none;
+}
+ 
+.footer-container18 {
+  text-decoration: none;
+}
+ 
+.footer-thq-btn-elm1 {
+  text-decoration: none;
+}
+
+.integrations-container10 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.integrations-container11 {
+  display: none;
+}
+ 
+.integrations-container12 {
+  display: contents;
+}
+ 
+.integrations-container13 {
+  display: none;
+}
+ 
+.integrations-container14 {
+  display: contents;
+}
+ 
+.integrations-container15 {
+  display: none;
+}
+ 
+.integrations-container16 {
+  display: contents;
+}
+ 
+.integrations-thq-integrations-hero1-elm {
+  width: auto;
+}
+ 
+.integrations-thq-btn-elm1 {
+  text-decoration: none;
+}
+ 
+.integrations-thq-brand-status-elm1 {
+  display: none;
+}
+ 
+.integrations-thq-brand-status-elm2 {
+  display: none;
+}
+ 
+.integrations-thq-brand-status-elm3 {
+  display: none;
+}
+ 
+.integrations-thq-brand-status-elm4 {
+  display: none;
+}
+ 
+.integrations-thq-brand-status-elm5 {
+  display: none;
+}
+ 
+.integrations-thq-brand-status-elm6 {
+  display: none;
+}
+ 
+.integrations-thq-btn-elm2 {
+  text-decoration: none;
+}
+ 
+.integrations-thq-api-feature-card-elm3 {
+  display: none;
+}
+ 
+.integrations-thq-api-feature-card-elm4 {
+  display: none;
+}
+ 
+.integrations-thq-api-code-preview-elm {
+  display: none;
+}
+ 
+.integrations-thq-btn-elm3 {
+  display: none;
+}
+ 
+.integrations-thq-integration-benefits-elm {
+  display: none;
+}
+ 
+.integrations-thq-benefit-stat-fill-elm1 {
+  stroke-dasharray: 85 100;
+}
+ 
+.integrations-thq-benefit-stat-fill-elm2 {
+  stroke-dasharray: 96 100;
+}
+ 
+.integrations-thq-benefit-stat-fill-elm3 {
+  stroke-dasharray: 92 100;
+}
+ 
+.integrations-thq-btn-elm5 {
+  text-decoration: none;
+}
+ 
+.integrations-thq-btn-elm6 {
+  display: none;
+}
+ 
+.integrations-thq-trust-indicator-elm3 {
+  display: none;
+}

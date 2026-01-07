@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>KORPUS by VLECAD®</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Roboto;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="public/logo_korpus_tekengebied 1 kopie 2.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="../style.css" />
+    <div>
+      <link href="./footer.css" rel="stylesheet" />
+      <div class="footer-container10">
+        <div class="footer-container11">
+          <div class="footer-container12">
+            <style>
+              @media (prefers-reduced-motion: no-preference) {
+              .footer-link, .footer-contact-item, .footer-social-link {
+                transition: all 0.3s var(--animation-curve-primary);
+              }
+              .footer-badge {
+                animation: fadeInUp 0.6s var(--animation-curve-primary) backwards;
+              }
+              .footer-badge:nth-child(1) {
+                animation-delay: 0.1s;
+              }
+              .footer-badge:nth-child(2) {
+                animation-delay: 0.2s;
+              }
+              .footer-badge:nth-child(3) {
+                animation-delay: 0.3s;
+              }
+              }
+              @media (prefers-reduced-motion: reduce) {
+              * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+              }
+              }
+            </style>
+          </div>
+        </div>
+        <div class="footer-container13">
+          <div class="footer-container14">
+            <script defer="" data-name="footer">
+              document.addEventListener('DOMContentLoaded', function() {
+                (function(){
+                  // Back to top button functionality
+                  const backToTopButton = document.getElementById("footer-back-to-top")
+
+                  function toggleBackToTopButton() {
+                    if (window.scrollY > 500) {
+                      backToTopButton.classList.add("visible")
+                    } else {
+                      backToTopButton.classList.remove("visible")
+                    }
+                  }
+
+                  // Throttle scroll events for performance
+                  let scrollTimeout
+                  window.addEventListener(
+                    "scroll",
+                    function () {
+                      if (scrollTimeout) {
+                        window.cancelAnimationFrame(scrollTimeout)
+                      }
+                      scrollTimeout = window.requestAnimationFrame(function () {
+                        toggleBackToTopButton()
+                      })
+                    },
+                    { passive: true }
+                  )
+
+                  // Smooth scroll to top
+                  backToTopButton.addEventListener("click", function () {
+                    window.scrollTo({
+                      top: 0,
+                      behavior: "smooth",
+                    })
+                  })
+
+                  // Newsletter form submission
+                  const newsletterForm = document.querySelector(".footer-newsletter-form")
+                  if (newsletterForm) {
+                    newsletterForm.addEventListener("submit", function (e) {
+                      e.preventDefault()
+                      const emailInput = this.querySelector(".footer-newsletter-input")
+                      const email = emailInput.value
+
+                      // Here you would typically send the email to your backend
+                      console.log("Newsletter signup:", email)
+
+                      // Visual feedback
+                      const button = this.querySelector(".btn")
+                      const originalText = button.textContent
+                      button.textContent = "Subscribed!"
+                      button.style.background = "var(--color-primary)"
+                      button.style.color = "var(--color-on-primary)"
+
+                      emailInput.value = ""
+
+                      setTimeout(function () {
+                        button.textContent = originalText
+                        button.style.background = ""
+                        button.style.color = ""
+                      }, 3000)
+                    })
+                  }
+
+                  // Initialize on load
+                  toggleBackToTopButton()
+                })()
+              });
+            </script>
+          </div>
+        </div>
+        <footer id="footer-korpus" class="footer-section">
+          <div class="footer-container">
+            <div class="footer-main">
+              <div class="footer-column footer-brand">
+                <div class="footer-logo-wrapper">
+                  <img
+                    alt="image"
+                    src="public/logo_korpus-registered-200h.png"
+                    class="footer-image"
+                  />
+                </div>
+                <p class="footer-tagline">
+                  CAD/CAM software that thinks like a craftsman. From design to
+                  CNC in one click.
+                </p>
+                <div class="footer-badges">
+                  <div class="footer-badge">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M20 6L9 17l-5-5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span>One-click to CNC</span>
+                  </div>
+                  <div class="footer-badge">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M20 6L9 17l-5-5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span>REST API</span>
+                  </div>
+                  <div class="footer-badge">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M20 6L9 17l-5-5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span>Works with your machines</span>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-column">
+                <h4 class="footer-heading">Product</h4>
+                <nav class="footer-nav">
+                  <a href="product.html">
+                    <div class="footer-link">
+                      <span>Parametric Design</span>
+                    </div>
+                  </a>
+                  <a href="product.html">
+                    <div class="footer-link"><span>One-Click CNC</span></div>
+                  </a>
+                  <a href="product.html">
+                    <div class="footer-link">
+                      <span>Automatic Labeling</span>
+                    </div>
+                  </a>
+                  <a href="product.html">
+                    <div class="footer-link"><span>Batch Production</span></div>
+                  </a>
+                  <a href="product.html">
+                    <div class="footer-link">
+                      <span>Materials &amp; Edges</span>
+                    </div>
+                  </a>
+                  <a href="integrations.html">
+                    <div class="footer-link"><span>Integrations</span></div>
+                  </a>
+                </nav>
+              </div>
+              <div class="footer-thq-footer-column-elm3 footer-column">
+                <h4 class="footer-heading">Solutions</h4>
+                <nav class="footer-nav">
+                  <a href="solutions.html">
+                    <div class="footer-link"><span>Small Shops</span></div>
+                  </a>
+                  <a href="solutions.html">
+                    <div class="footer-link"><span>Growing Teams</span></div>
+                  </a>
+                  <a href="solutions.html">
+                    <div class="footer-link"><span>Larger Factories</span></div>
+                  </a>
+                  <a href="pricing.html">
+                    <div class="footer-thq-footer-link-elm19 footer-link">
+                      <span>Pricing</span>
+                    </div>
+                  </a>
+                  <a href="customer-stories.html">
+                    <div class="footer-link"><span>Customer Stories</span></div>
+                  </a>
+                </nav>
+              </div>
+              <div class="footer-column">
+                <h4 class="footer-heading">Company</h4>
+                <nav class="footer-nav">
+                  <a href="about.html">
+                    <div class="footer-link"><span>About Us</span></div>
+                  </a>
+                  <a
+                    href="https://vlecad.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <div rel="noopener" target="_blank" class="footer-link">
+                      <span>VLECAD®</span>
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.autofitsoftware.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <div rel="noopener" target="_blank" class="footer-link">
+                      <span>AutoFIT</span>
+                    </div>
+                  </a>
+                  <a href="contactdemo.html">
+                    <div class="footer-thq-footer-link-elm24 footer-link">
+                      <span>Contact</span>
+                    </div>
+                  </a>
+                </nav>
+              </div>
+              <div>
+                <div class="footer-column footer-contact">
+                  <h4 class="footer-heading">Get in Touch</h4>
+                  <div class="footer-contact-list">
+                    <a href="tel:+32123456789">
+                      <div>
+                        <div class="footer-contact-item">
+                          <span class="footer-contact-icon">
+                            <svg
+                              width="24"
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span>+32 (0)89 81 93 30</span>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="mailto:info@korpus.be?subject=?subject=">
+                      <div>
+                        <div class="footer-contact-item">
+                          <span class="footer-contact-icon">
+                            <svg
+                              width="24"
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24"
+                              viewBox="0 0 24 24"
+                            >
+                              <g
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              >
+                                <path
+                                  d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                                ></path>
+                                <rect
+                                  x="2"
+                                  y="4"
+                                  rx="2"
+                                  width="20"
+                                  height="16"
+                                ></rect>
+                              </g>
+                            </svg>
+                          </span>
+                          <span>info@vlecad.be</span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="footer-contact-item">
+                      <span class="footer-contact-icon">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="M17.97 9.304A8 8 0 0 0 2 10c0 4.69 4.887 9.562 7.022 11.468m12.356-4.842a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"
+                            ></path>
+                            <circle r="3" cx="10" cy="10"></circle>
+                          </g>
+                        </svg>
+                      </span>
+                      <span>
+                        <span>Kanaalkom 36</span>
+                        <br />
+                        <span>3960 Bree</span>
+                        <br />
+                        <span>Belgium</span>
+                        Kanaalkom 36, Bree (B)
+                      </span>
+                    </div>
+                  </div>
+                  <div class="footer-social-links">
+                    <a
+                      href="https://www.instagram.com/vlecad/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div
+                        rel="noreferrer noopener"
+                        target="_blank"
+                        class="footer-container18"
+                      >
+                        <div
+                          rel="noopener"
+                          target="_blank"
+                          aria-label="Instagram"
+                          class="footer-social-link"
+                        >
+                          <svg
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            >
+                              <rect
+                                x="2"
+                                y="2"
+                                rx="5"
+                                ry="5"
+                                width="20"
+                                height="20"
+                              ></rect>
+                              <path
+                                d="M16 11.37A4 4 0 1 1 12.63 8A4 4 0 0 1 16 11.37m1.5-4.87h.01"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                    </a>
+                    <a
+                      href="https://www.facebook.com/vlecad/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div rel="noreferrer noopener" target="_blank">
+                        <div
+                          rel="noopener"
+                          target="_blank"
+                          aria-label="Facebook"
+                          class="footer-social-link"
+                        >
+                          <svg
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </a>
+                    <a
+                      href="https://be.linkedin.com/company/vlecad-bvba"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div rel="noreferrer noopener" target="_blank">
+                        <div
+                          rel="noopener"
+                          target="_blank"
+                          aria-label="LinkedIn"
+                          class="footer-social-link"
+                        >
+                          <svg
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            >
+                              <path
+                                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"
+                              ></path>
+                              <circle r="2" cx="4" cy="4"></circle>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-cta-bar">
+              <div class="footer-cta-content">
+                <div class="footer-cta-text">
+                  <h3 class="footer-cta-title">
+                    Ready to automate your production?
+                  </h3>
+                  <p class="footer-cta-subtitle">
+                    See Korpus in action. Book a personalized demo.
+                  </p>
+                </div>
+                <a href="contactdemo.html">
+                  <div class="footer-thq-btn-elm1 btn btn-lg btn-primary">
+                    <span>Schedule a demo</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="footer-newsletter">
+              <div class="footer-newsletter-content">
+                <div class="footer-newsletter-text">
+                  <h4 class="footer-newsletter-title">Stay Updated</h4>
+                  <p class="footer-newsletter-description">
+                    Get product updates, tips, and manufacturing insights.
+                  </p>
+                </div>
+                <form
+                  aria-label="Newsletter signup"
+                  data-form-id="28caf4e1-6245-49d1-a0fc-8a14a6735118"
+                  class="footer-newsletter-form"
+                >
+                  <input
+                    type="email"
+                    name="textinput ysub9xvj4a"
+                    required="true"
+                    aria-label="Email address"
+                    placeholder="your@email.com"
+                    class="footer-newsletter-input"
+                  />
+                  <button
+                    name="button t1uqe7yn09"
+                    type="submit"
+                    class="btn btn-secondary"
+                  >
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <div class="footer-bottom-left">
+                <p class="footer-copyright">
+                  ©VLECAD; 2025 Korpus — powered by VLECAD®. All rights
+                  reserved.
+                </p>
+              </div>
+              <div class="footer-bottom-right">
+                <a href="#">
+                  <div class="footer-legal-link">
+                    <span>Privacy Policy</span>
+                  </div>
+                </a>
+                <span class="footer-divider">•</span>
+                <a href="#">
+                  <div class="footer-legal-link">
+                    <span>Terms of Service</span>
+                  </div>
+                </a>
+                <span class="footer-divider">•</span>
+                <a href="#">
+                  <div class="footer-legal-link">
+                    <span>Cookie Settings</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <button
+            id="footer-back-to-top"
+            aria-label="Back to top"
+            class="footer-back-to-top"
+          >
+            <svg
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m5 12l7-7l7 7m-7 7V5"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </button>
+        </footer>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://www.googletagmanager.com/gtag/js?id=12293446216"
+      async=""
+    ></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '12293446216');
+    </script>
+    <script type="text/javascript">
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','G-P92XV9N8YZ');
+    </script>
+  </body>
+</html>

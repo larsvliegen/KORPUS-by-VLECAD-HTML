@@ -1,0 +1,415 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container10 {
+  display: contents;
+}
+ 
+.navigation-container11 {
+  display: none;
+}
+ 
+.navigation-container12 {
+  display: contents;
+}
+ 
+.navigation-container13 {
+  display: none;
+}
+ 
+.navigation-container14 {
+  display: contents;
+}
+ 
+.navigation-container15 {
+  display: none;
+}
+ 
+.navigation-container16 {
+  display: contents;
+}
+ 
+.navigation-container17 {
+  display: none;
+}
+ 
+.navigation-container18 {
+  display: contents;
+}
+ 
+.navigation-container21 {
+  text-decoration: none;
+}
+ 
+.navigation-container24 {
+  text-decoration: none;
+}
+ 
+.navigation-container25 {
+  text-decoration: none;
+}
+ 
+.navigation-container26 {
+  text-decoration: none;
+}
+ 
+.navigation-container27 {
+  display: none;
+  text-decoration: none;
+}
+ 
+.navigation-container28 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-nav-korpusmenu-item-elm6 {
+  display: none;
+}
+ 
+.navigation-container29 {
+  text-decoration: none;
+}
+ 
+.navigation-container30 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-nav-korpustheme-icon1-elm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 1;
+  position: absolute;
+  transform: translateY(0) rotate(0deg);
+  transition: transform 0.4s var(--animation-curve-primary),
+      opacity 0.4s var(--animation-curve-primary);
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navigation-thq-nav-korpustheme-icon2-elm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  position: absolute;
+  transform: translateY(100%) rotate(180deg);
+  transition: transform 0.4s var(--animation-curve-primary),
+      opacity 0.4s var(--animation-curve-primary);
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navigation-container31 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-nav-korpusmobile-icon1-elm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 1;
+  position: absolute;
+  transform: rotate(0deg);
+  transition: transform 0.3s var(--animation-curve-primary),
+      opacity 0.3s var(--animation-curve-primary);
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navigation-thq-nav-korpusmobile-icon2-elm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  position: absolute;
+  transform: rotate(90deg);
+  transition: transform 0.3s var(--animation-curve-primary),
+      opacity 0.3s var(--animation-curve-primary);
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container10 {
+  display: contents;
+}
+ 
+.footer-container11 {
+  display: none;
+}
+ 
+.footer-container12 {
+  display: contents;
+}
+ 
+.footer-container13 {
+  display: none;
+}
+ 
+.footer-container14 {
+  display: contents;
+}
+ 
+.footer-image {
+  width: 200px;
+  object-fit: cover;
+}
+ 
+.footer-thq-footer-column-elm3 {
+  display: none;
+}
+ 
+.footer-thq-footer-link-elm19 {
+  display: none;
+}
+ 
+.footer-thq-footer-link-elm24 {
+  text-decoration: none;
+}
+ 
+.footer-container18 {
+  text-decoration: none;
+}
+ 
+.footer-thq-btn-elm1 {
+  text-decoration: none;
+}
+
+.solutions-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.solutions-container2 {
+  display: none;
+}
+ 
+.solutions-container3 {
+  display: contents;
+}
+ 
+.solutions-container4 {
+  display: none;
+}
+ 
+.solutions-container5 {
+  display: contents;
+}
+ 
+.solutions-container6 {
+  display: none;
+}
+ 
+.solutions-container7 {
+  display: contents;
+}
+ 
+.solutions-thq-hero-secondary-link-elm {
+  display: none;
+}
+ 
+.solutions-thq-timeline-step-elm21 {
+  display: none;
+}
+ 
+.solutions-thq-demo-secondary-link-elm {
+  display: none;
+}
+ 
+.solutions-thq-btn-elm20 {
+  width: 100%;
+}
+ 
+.solutions-thq-form-secondary-link-elm {
+  display: none;
+}
+ 
+.solutions-thq-customer-outcomes-elm {
+  display: none;
+}
+ 
+.solutions-thq-speaker-info-elm1 {
+  gap: var(--spacing-xs);
+  display: flex;
+  flex-direction: column;
+}
+ 
+.solutions-thq-outcome-stats-elm1 {
+  gap: var(--spacing-sm);
+  display: flex;
+}
+ 
+.solutions-thq-speaker-info-elm2 {
+  gap: var(--spacing-xs);
+  display: flex;
+  flex-direction: column;
+}
+ 
+.solutions-thq-outcome-stats-elm2 {
+  gap: var(--spacing-sm);
+  display: flex;
+}
+ 
+.solutions-thq-speaker-info-elm3 {
+  gap: var(--spacing-xs);
+  display: flex;
+  flex-direction: column;
+}
+ 
+.solutions-thq-outcome-stats-elm3 {
+  gap: var(--spacing-sm);
+  display: flex;
+}
+ 
+.solutions-thq-faq-elm {
+  display: none;
+}
+ 
+.solutions-thq-faq-question-elm1 {
+  color: var(--color-on-surface);
+  margin: 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+}
+ 
+.solutions-thq-faq-icon-elm1 {
+  color: var(--color-on-surface-secondary);
+  width: 24px;
+  height: 24px;
+  transition: transform var(--animation-duration-fast)
+      var(--animation-curve-primary);
+  flex-shrink: 0;
+}
+ 
+.solutions-thq-faq-question-elm2 {
+  color: var(--color-on-surface);
+  margin: 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+}
+ 
+.solutions-thq-faq-icon-elm2 {
+  color: var(--color-on-surface-secondary);
+  width: 24px;
+  height: 24px;
+  transition: transform var(--animation-duration-fast)
+      var(--animation-curve-primary);
+  flex-shrink: 0;
+}
+ 
+.solutions-thq-faq-question-elm3 {
+  color: var(--color-on-surface);
+  margin: 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+}
+ 
+.solutions-thq-faq-icon-elm3 {
+  color: var(--color-on-surface-secondary);
+  width: 24px;
+  height: 24px;
+  transition: transform var(--animation-duration-fast)
+      var(--animation-curve-primary);
+  flex-shrink: 0;
+}
+ 
+.solutions-thq-faq-question-elm4 {
+  color: var(--color-on-surface);
+  margin: 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+}
+ 
+.solutions-thq-faq-icon-elm4 {
+  color: var(--color-on-surface-secondary);
+  width: 24px;
+  height: 24px;
+  transition: transform var(--animation-duration-fast)
+      var(--animation-curve-primary);
+  flex-shrink: 0;
+}
+ 
+.solutions-thq-faq-question-elm5 {
+  color: var(--color-on-surface);
+  margin: 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+}
+ 
+.solutions-thq-faq-icon-elm5 {
+  color: var(--color-on-surface-secondary);
+  width: 24px;
+  height: 24px;
+  transition: transform var(--animation-duration-fast)
+      var(--animation-curve-primary);
+  flex-shrink: 0;
+}
+ 
+.solutions-thq-faq-question-elm6 {
+  color: var(--color-on-surface);
+  margin: 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+}
+ 
+.solutions-thq-faq-icon-elm6 {
+  color: var(--color-on-surface-secondary);
+  width: 24px;
+  height: 24px;
+  transition: transform var(--animation-duration-fast)
+      var(--animation-curve-primary);
+  flex-shrink: 0;
+}
+ 
+.solutions-thq-faq-sidebar-elm {
+  display: none;
+}
+ 
+.solutions-thq-btn-elm30 {
+  width: 100%;
+}
+ 
+@media(max-width: 767px) {
+  .solutions-thq-faq-question-elm1 {
+    font-size: var(--font-size-md);
+  }
+  .solutions-thq-faq-question-elm2 {
+    font-size: var(--font-size-md);
+  }
+  .solutions-thq-faq-question-elm3 {
+    font-size: var(--font-size-md);
+  }
+  .solutions-thq-faq-question-elm4 {
+    font-size: var(--font-size-md);
+  }
+  .solutions-thq-faq-question-elm5 {
+    font-size: var(--font-size-md);
+  }
+  .solutions-thq-faq-question-elm6 {
+    font-size: var(--font-size-md);
+  }
+}

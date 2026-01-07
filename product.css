@@ -1,0 +1,264 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container10 {
+  display: contents;
+}
+ 
+.navigation-container11 {
+  display: none;
+}
+ 
+.navigation-container12 {
+  display: contents;
+}
+ 
+.navigation-container13 {
+  display: none;
+}
+ 
+.navigation-container14 {
+  display: contents;
+}
+ 
+.navigation-container15 {
+  display: none;
+}
+ 
+.navigation-container16 {
+  display: contents;
+}
+ 
+.navigation-container17 {
+  display: none;
+}
+ 
+.navigation-container18 {
+  display: contents;
+}
+ 
+.navigation-container21 {
+  text-decoration: none;
+}
+ 
+.navigation-container24 {
+  text-decoration: none;
+}
+ 
+.navigation-container25 {
+  text-decoration: none;
+}
+ 
+.navigation-container26 {
+  text-decoration: none;
+}
+ 
+.navigation-container27 {
+  display: none;
+  text-decoration: none;
+}
+ 
+.navigation-container28 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-nav-korpusmenu-item-elm6 {
+  display: none;
+}
+ 
+.navigation-container29 {
+  text-decoration: none;
+}
+ 
+.navigation-container30 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-nav-korpustheme-icon1-elm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 1;
+  position: absolute;
+  transform: translateY(0) rotate(0deg);
+  transition: transform 0.4s var(--animation-curve-primary),
+      opacity 0.4s var(--animation-curve-primary);
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navigation-thq-nav-korpustheme-icon2-elm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  position: absolute;
+  transform: translateY(100%) rotate(180deg);
+  transition: transform 0.4s var(--animation-curve-primary),
+      opacity 0.4s var(--animation-curve-primary);
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navigation-container31 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-nav-korpusmobile-icon1-elm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 1;
+  position: absolute;
+  transform: rotate(0deg);
+  transition: transform 0.3s var(--animation-curve-primary),
+      opacity 0.3s var(--animation-curve-primary);
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navigation-thq-nav-korpusmobile-icon2-elm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  position: absolute;
+  transform: rotate(90deg);
+  transition: transform 0.3s var(--animation-curve-primary),
+      opacity 0.3s var(--animation-curve-primary);
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container10 {
+  display: contents;
+}
+ 
+.footer-container11 {
+  display: none;
+}
+ 
+.footer-container12 {
+  display: contents;
+}
+ 
+.footer-container13 {
+  display: none;
+}
+ 
+.footer-container14 {
+  display: contents;
+}
+ 
+.footer-image {
+  width: 200px;
+  object-fit: cover;
+}
+ 
+.footer-thq-footer-column-elm3 {
+  display: none;
+}
+ 
+.footer-thq-footer-link-elm19 {
+  display: none;
+}
+ 
+.footer-thq-footer-link-elm24 {
+  text-decoration: none;
+}
+ 
+.footer-container18 {
+  text-decoration: none;
+}
+ 
+.footer-thq-btn-elm1 {
+  text-decoration: none;
+}
+
+.product-container10 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.product-container11 {
+  display: none;
+}
+ 
+.product-container12 {
+  display: contents;
+}
+ 
+.product-container13 {
+  display: none;
+}
+ 
+.product-container14 {
+  display: contents;
+}
+ 
+.product-container15 {
+  display: none;
+}
+ 
+.product-container16 {
+  display: contents;
+}
+ 
+.product-thq-btn-elm1 {
+  text-decoration: none;
+}
+ 
+.product-thq-btn-elm2 {
+  text-decoration: none;
+}
+ 
+.product-thq-btn-elm3 {
+  text-decoration: none;
+}
+ 
+.product-thq-cnc-showcase-elm {
+  width: 400px;
+}
+ 
+.product-thq-cnc-main-image-elm {
+  width: 424px;
+  height: 246px;
+}
+ 
+.product-thq-btn-elm4 {
+  text-decoration: none;
+}
+ 
+.product-icon143 {
+  display: none;
+}
+ 
+.product-icon148 {
+  display: none;
+}
+ 
+.product-icon152 {
+  display: none;
+}
+ 
+.product-thq-batch-cta-wrapper-elm {
+  text-decoration: none;
+}
+ 
+.product-thq-hardware-cta-group-elm {
+  display: none;
+}
+ 
+.product-thq-btn-elm8 {
+  text-decoration: none;
+}
+ 
+.product-thq-cta-floating-badge-elm {
+  text-decoration: none;
+}
